@@ -70,19 +70,7 @@ function checkValueDateTime(id1, id2)
     }
 }
 
-function checkTaiXe(id1, id2)
-{
-    tx1 = document.getElementById(id).value;
-    tx2 = document.getElementById(id).value;
 
-    if (tx1 == tx2)
-    {
-        alert("Không được trùng tài xế chính và phụ");
-//       document.getElementById(id).value = ""
-    }
-
-
-}
 
 
 
@@ -187,28 +175,6 @@ function updateNV(id) {
 
 }
 
-function getUser(role, id) {
-    fetch(`/LetsGo/api/admin/nhanvien/getuser/${id}/${role}`).then(function (res1) {
-            
-        return res1.json(); 
-        
-    }).then(function (data1) {
-         alert(id)
-        let h = document.getElementById("textbox-user");
-       
-        if (h != null)
-        {
-            k = ` <form:select path="maU" class ="sex" id="Uuser" >
-                                            <c:forEach var ="l" items ="${data1}" >
-                                                <option value="${l.maUser}">${l.maUser}</option>
-                                            </c:forEach>
-                   </form:select>
-                        `
-            h.innerHTML = "<h2>ssss </h2>";
-        }
-
-    })
-}
 function checkTime(i)
 {
     if (i < 10) {
