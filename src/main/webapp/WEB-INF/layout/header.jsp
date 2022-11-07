@@ -30,18 +30,8 @@
                 <li class="dropdown"><a href="#"><span>Hotline</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="#">093845464</a></li>
-                        <!--              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                                        <ul>
-                                          <li><a href="#">Deep Drop Down 1</a></li>
-                                          <li><a href="#">Deep Drop Down 2</a></li>
-                                          <li><a href="#">Deep Drop Down 3</a></li>
-                                          <li><a href="#">Deep Drop Down 4</a></li>
-                                          <li><a href="#">Deep Drop Down 5</a></li>
-                                        </ul>
-                                      </li>
-                                      <li><a href="#">Drop Down 2</a></li>
-                                      <li><a href="#">Drop Down 3</a></li>-->
-                        <li><a href="#">Drop Down 4</a></li>
+                      
+                        <li><a href="#">0342912564</a></li>
                     </ul>
                 </li>
 
@@ -101,7 +91,7 @@
                 <sec:authorize access="hasRole('ROLE_TX')">
                     <li class="nav-item">
                         <a class="nav-link text-info" href="<c:url value="/taixe/"/>">
-                            Các chuyến xe của tôi
+                            Các chuyến xe của tôi 
                         </a>
                     </li>
                 </sec:authorize>
